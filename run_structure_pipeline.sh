@@ -61,10 +61,10 @@ cd "$SCRIPT_DIR"
 
 
 # Define scripts
-STITCHR_PREPROCESS="stitchr_preprocess.py"
-STITCHR_SCRIPT="run_stitchr.py"
-TFOLD_PREPROCESS="preprocessing_to_tfold.py"
-TFOLD_SCRIPT="run_tfold.py"
+STITCHR_PREPROCESS="$SCRIPT_DIR/scripts/stitchr_preprocess.py"
+STITCHR_SCRIPT="$SCRIPT_DIR/scripts/run_stitchr.py"
+TFOLD_PREPROCESS="$SCRIPT_DIR/scripts/preprocessing_to_tfold.py"
+TFOLD_SCRIPT="$SCRIPT_DIR/scripts/run_tfold.py"
 
 
 # Define output directories
