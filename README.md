@@ -1,7 +1,6 @@
 # TCR_model
 Creates models of TCRs in PDB format from CDR3 sequences and V/J names or sequences using stitchr and tfold.
 
-
 ### **PIPELINE**
 
 For the whole pipeline, run script `run_structure_pipeline.sh` or `run_structure_pipeline.slurm.sh`
@@ -30,6 +29,8 @@ Input is a dataset containing
 
 Output is a JSON file containing full sequences for alpha and beta chains
 
+Stitchr: James M Heather, Matthew J Spindler, Marta Herrero Alonso, Yifang Ivana Shui, David G Millar, David S Johnson, Mark Cobbold, Aaron N Hata, Stitchr: stitching coding TCR nucleotide sequences from V/J/CDR3 information, Nucleic Acids Research, 2022, gkac190, https://doi.org/10.1093/nar/gkac190.
+
 ### tfold
 
 run scripts:
@@ -39,6 +40,8 @@ run scripts:
 optional: run pdbfixer on pdbs if missing hydrogens or interactions <-- Still does not always work for screening
 
 Input is the JSON list of TCR chain sequences
+
+Tfold: Wu, Fandi and Zhao, Yu and Wu, Jiaxiang and Jiang, Biaobin and He, Bing and Huang, Longkai and Qin, Chenchen and Yang, Fan and Huang, Ningqiao and Xiao, Yang and others, Fast and accurate modeling and design of antibody-antigen complex using tFold. bioRxiv, 2024
 
 ### Outputs
 
