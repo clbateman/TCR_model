@@ -64,10 +64,10 @@ cd "$SCRIPT_DIR"
 
 # Define scripts
 PROJECT_DIR="/shared/projects/fine_tuning_for_tcr_specificity_prediction/TCR_model"
-STITCHR_PREPROCESS="${PROJECT_DIR}/stitchr_preprocess.py"
-STITCHR_SCRIPT="${PROJECT_DIR}/run_stitchr.py"
-TFOLD_PREPROCESS="${PROJECT_DIR}/preprocessing_to_tfold.py"
-TFOLD_SCRIPT="${PROJECT_DIR}/run_tfold.py"
+STITCHR_PREPROCESS="${PROJECT_DIR}/scripts/stitchr_preprocess.py"
+STITCHR_SCRIPT="${PROJECT_DIR}/scripts/run_stitchr.py"
+TFOLD_PREPROCESS="${PROJECT_DIR}/scripts/preprocessing_to_tfold.py"
+TFOLD_SCRIPT="${PROJECT_DIR}/scripts/run_tfold.py"
 
 
 # Define output directories
